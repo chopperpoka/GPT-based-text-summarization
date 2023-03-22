@@ -11,7 +11,12 @@ import {
 const App = () => {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <div className="gradient__gb">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
     </div>
   );
 };

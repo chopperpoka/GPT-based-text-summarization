@@ -1,8 +1,8 @@
 import React from "react";
 import "./possibility.css";
 
-function Possiblity() {
-  return <div>Possiblity</div>;
+function Possibility() {
+  return <div>Possibility</div>;
 }
 
-export default Possiblity;
+export default Possibility;
