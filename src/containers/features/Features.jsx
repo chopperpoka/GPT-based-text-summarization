@@ -4,20 +4,20 @@ import "./features.css";
 
 const featuresData = [
   {
-    title: "Improving end distrusts instantly",
-    text: "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.",
+    title: "Save Time and Effort",
+    text: "With TextXtract, you can quickly generate summaries of long articles or research papers, saving you the time and effort of reading through the entire text.",
   },
   {
-    title: "Become the tended active",
-    text: "Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.",
+    title: "Accurate Summaries",
+    text: "Our AI-powered text summarization tool uses state-of-the-art natural language processing algorithms to provide accurate and concise summaries of even the most complex texts.",
   },
   {
-    title: "Message or am nothing",
-    text: "Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.",
+    title: "Improve Productivity",
+    text: "TextXtract can help you stay on top of your reading list and increase your productivity by allowing you to quickly summarize important information and move on to the next task.",
   },
   {
-    title: "Really boy law county",
-    text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..",
+    title: "Accessible Anywhere, Anytime",
+    text: "Whether you're at home, at work, or on the go, TextXtract is accessible from any device with an internet connection, making it a convenient tool for busy professionals and students alike.",
   },
 ];
 
@@ -25,8 +25,8 @@ const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">
-        The Future is Now and You Just Need to Realize It. Step into Future
-        Today. & Make it Happen.
+        Experience the Power of TextXtract: 4 Benefits to Simplify Your Text
+        Summarization
       </h1>
       <p>Request Early Access to Get Started</p>
     </div>

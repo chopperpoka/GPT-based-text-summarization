@@ -6,8 +6,8 @@ const WhatGPT3 = () => (
   <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
     <div className="gpt3__whatgpt3-feature">
       <Feature
-        title="What is GPT-3"
-        text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."
+        title="What is TextXtract"
+        text="TextXtract is a web application that allows users to summarize long pieces of text using state-of-the-art AI technologies. With a simple and user-friendly interface, TextXtract enables users to generate concise and accurate summaries of articles, research papers, and other text-based documents."
       />
     </div>
     <div className="gpt3__whatgpt3-heading">
@@ -18,16 +18,16 @@ const WhatGPT3 = () => (
     </div>
     <div className="gpt3__whatgpt3-container">
       <Feature
-        title="Chatbots"
-        text="We so opinion friends me message as delight. Whole front do of plate heard oh ought."
+        title="Effortless"
+        text="Quickly generate a summary of any article or research paper by simply copying and pasting the text into TextXtract. No more wasting time reading through lengthy documents!"
       />
       <Feature
-        title="Knowledgebase"
-        text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+        title="Customizable"
+        text="Customize your summary by adjusting the length and level of detail. Tailor your summary to your specific needs and preferences."
       />
       <Feature
-        title="Education"
-        text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"
+        title="Highly Accurate"
+        text=" Get accurate and comprehensive summaries every time with the power of GPT-based technology. Trust TextXtract to give you the information you need in a concise and digestible format."
       />
     </div>
   </div>

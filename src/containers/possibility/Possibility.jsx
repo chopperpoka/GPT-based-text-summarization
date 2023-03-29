@@ -10,7 +10,8 @@ const Possibility = () => (
     <div className="gpt3__possibility-content">
       <h4>Request Early Access to Get Started</h4>
       <h1 className="gradient__text">
-        The possibilities are <br /> beyond your imagination
+        Try out TextXtract <br />
+        with our interactive demo!
       </h1>
       <p>
         Yet bed any for travelling assistance indulgence unpleasing. Not
