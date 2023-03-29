@@ -1,3 +1,3 @@
-# GPT-based text summarization
+# GPT-based text summarization - TextXtract
 
 More info coming soon...
