@@ -7,12 +7,14 @@ const Header = () => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
       <h1 className="gradient__text">
-        Let&apos;s Build Something amazing with GPT-3 OpenAI
+        TextXtract - AI-powered text summarization
       </h1>
       <p>
-        Yet bed any for travelling assistance indulgence unpleasing. Not
-        thoughts all exercise blessing. Indulgence way everything joy alteration
-        boisterous the attachment. Party we years to order allow asked of.
+        Get concise and accurate summaries of long articles, research papers,
+        and more with TextXtract. Our app uses state-of-the-art artificial
+        intelligence technology to extract the most important information from
+        any text and deliver it to you in a clear and easy-to-read summary. Save
+        time and stay informed with TextXtract!
       </p>
 
       <div className="gpt3__header-content__input">
