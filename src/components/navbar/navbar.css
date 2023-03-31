@@ -42,8 +42,9 @@
 .gpt3__navbar-menu_container button {
   padding: 0.5rem 1rem;
   color: #fff;
+  width: 120px;
   font-family: var(--font-family);
-  background: #08025bbd;
+  background: linear-gradient(103.22deg, #ae67fa -49.86%, #d98151 94.55%);
   left: 1153px;
   top: 55px;
   font-weight: 500;
