@@ -1,6 +1,6 @@
 import React from "react";
 import people from "../../assets/people.png";
-import ai from "../../assets/robot-face.png";
+import ai from "../../assets/robot-brain.png";
 import "./header.css";
 
 const Header = () => (
@@ -27,7 +27,8 @@ const Header = () => (
         <p>1,600 people requested access a visit in last 24 hours</p>
       </div>
     </div>
-
+    {/* this should be solved - the quality of this image is not the best - Try
+    to improve that when you get the chance */}
     <div className="gpt3__header-image">
       <img src={ai} />
     </div>
