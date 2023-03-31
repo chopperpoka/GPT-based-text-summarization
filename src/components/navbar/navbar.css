@@ -15,7 +15,7 @@
 }
 .gpt3__navbar-logo img {
   width: 168.56px;
-  height: 39.02px;
+  height: 42.02px;
 }
 .gpt3__navbar-links_container {
   display: flex;
@@ -29,8 +29,8 @@
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
 .gpt3__navbar-menu_container p {
-  color: #fff;
-  font-family: var(--font-family);
+  color: #eceaea;
+  font-family: var(--button-font);
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
@@ -38,22 +38,35 @@
   margin: 0 1rem;
   cursor: pointer;
 }
+.gpt3__navbar-links_container p:hover,
+.gpt3__navbar-sign p:hover,
+.gpt3__navbar-menu_container p:hover {
+  filter: brightness(120%);
+  color: white;
+  scale: 103%;
+}
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
   padding: 0.5rem 1rem;
   color: #fff;
-  width: 120px;
-  font-family: var(--font-family);
-  background: linear-gradient(103.22deg, #ae67fa -49.86%, #d98151 94.55%);
+  width: 180px;
+  font-family: var(--button-font);
+  background: var(--gradient-btn-bg);
   left: 1153px;
   top: 55px;
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
-  border-radius: 5px;
+  border-radius: 50px;
   border: none;
   outline: none;
+  font-weight: 700;
   cursor: pointer;
+}
+.gpt3__navbar-sign button:hover,
+.gpt3__navbar-menu_container button:hover {
+  filter: brightness(110%);
+  scale: 102%;
 }
 .gpt3__navbar-menu {
   margin-left: 1rem;
