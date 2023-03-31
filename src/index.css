@@ -8,10 +8,9 @@
   --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
   --gradient-btn-bg: linear-gradient(
-    90deg,
-    rgba(132, 72, 197, 0.73) 19%,
-    rgba(174, 103, 250, 0.71) 44%,
-    rgba(217, 106, 48, 0.66) 83%
+    103.22deg,
+    #ae67fa -13.86%,
+    #f49867 99.55%
   );
   --color-bg: #040c18;
   --color-footer: #031b34;

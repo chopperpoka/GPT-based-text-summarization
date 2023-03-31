@@ -1,13 +1,13 @@
 import React from "react";
 import people from "../../assets/people.png";
-import ai from "../../assets/ai.png";
+import ai from "../../assets/robot-face.png";
 import "./header.css";
 
 const Header = () => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
       <h1 className="gradient__text">
-        TextXtract - AI-powered text summarization
+        TextXtract <br></br> An AI-powered text summarization
       </h1>
       <p>
         Get concise and accurate summaries of long articles, research papers,
