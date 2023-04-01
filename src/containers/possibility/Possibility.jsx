@@ -1,9 +1,9 @@
 import React from "react";
-import possibilityImage from "../../assets/possibility.png";
+import possibilityImage from "../../assets/huge-brain.png";
 import "./possibility.css";
 
 const Possibility = () => (
-  <div className="gpt3__possibility section__padding" id="possibility">
+  <div className="gpt3__possibility section__margin" id="possibility">
     <div className="gpt3__possibility-image">
       <img src={possibilityImage} alt="possibility" />
     </div>
