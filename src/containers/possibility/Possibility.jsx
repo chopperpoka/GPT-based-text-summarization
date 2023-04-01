@@ -19,7 +19,6 @@ const Possibility = () => (
         technology will generate a concise summary in seconds. See for yourself
         how TextXtract can save you time and improve your productivity.
       </p>
-      <h4>Request Early Access to Get Started</h4>
     </div>
   </div>
 );

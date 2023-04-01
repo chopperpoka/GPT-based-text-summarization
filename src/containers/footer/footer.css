@@ -17,7 +17,7 @@
 .gpt3__footer-heading h1 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 64px;
+  font-size: 54px;
   line-height: 75px;
 }
 
@@ -25,26 +25,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  background-color: red;
   padding: 1rem;
-  border: 1px solid #fff;
   text-align: center;
-
   margin-bottom: 10rem;
+  font-family: var(--font-family);
+  font-weight: 600;
   cursor: pointer;
-}
-/* fix this button hover - text color */
-.gpt3__footer-btn:hover {
-  background-color: white;
-  color: black !important;
+  color: white;
 }
 
-.gpt3__footer-btn p {
-  font-size: 18px;
-  font-family: var(--font-family);
-  line-height: 21px;
-  color: #fff;
-  word-spacing: 2px;
+.gpt3__footer-btn:hover {
+  background-color: #ae67fa;
+  color: white;
 }
 
 .gpt3__footer-links {

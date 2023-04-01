@@ -112,12 +112,12 @@
 }
 
 .gpt3__header-image img {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   filter: brightness(80%);
 }
 .gpt3__header-image img:hover {
-  filter: brightness(110%);
+  filter: brightness(100%);
 }
 
 @media screen and (max-width: 1050px) {
