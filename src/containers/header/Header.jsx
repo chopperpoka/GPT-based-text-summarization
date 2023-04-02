@@ -23,7 +23,10 @@ const Header = () => (
       </div>
 
       <div className="gpt3__header-content__people">
-        <p>TextXtract is designed to be fast, accurate, and easy to use.</p>
+        <p>
+          Save time and stay informed with TextXtract's AI-powered text
+          summarization technology
+        </p>
       </div>
     </div>
     <div className="gpt3__header-image">

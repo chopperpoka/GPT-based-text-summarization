@@ -2,6 +2,10 @@
 
 TextXtract is a web application that uses GPT-based text summarization to generate summaries of long pieces of text. Users can input an article, research paper, or other text, and the application will generate a summary that can be displayed alongside the original text.
 
+## Screenshot
+
+![Alt text](/src/TextXtract.png)
+
 ## Features
 
 - Input long pieces of text and generate a summary using GPT-based text summarization
@@ -25,4 +29,3 @@ TextXtract is a web application that uses GPT-based text summarization to genera
 ## Contributing
 
 Contributions to TextXtract are welcome! To contribute, please submit a pull request with your proposed changes. For major changes, please open an issue first to discuss the proposed changes.
-

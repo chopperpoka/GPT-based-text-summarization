@@ -56,7 +56,7 @@
   border-bottom-left-radius: 5px;
 }
 .gpt3__header-content__input input:hover {
-  filter: brightness(110%);
+  filter: brightness(115%);
 }
 
 .gpt3__header-content__input button {
@@ -83,17 +83,7 @@
 
 .gpt3__header-content__people {
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-
-  margin-top: 2rem;
-}
-
-.gpt3__header-content__people img {
-  width: 161.79px;
-  height: 38px;
+  display: inline-block;
 }
 
 .gpt3__header-content__people p {
@@ -102,8 +92,8 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 38px;
-  color: #fff;
-  text-align: center;
+  color: var(--color-subtext);
+  text-align: left;
 }
 
 .gpt3__header-image {
