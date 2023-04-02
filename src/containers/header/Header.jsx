@@ -13,8 +13,7 @@ const Header = () => (
         Get concise and accurate summaries of long articles, research papers,
         and more with TextXtract. Our app uses state-of-the-art artificial
         intelligence technology to extract the most important information from
-        any text and deliver it to you in a clear and easy-to-read summary. Save
-        time and stay informed with TextXtract!
+        any text and deliver it to you in a clear and easy-to-read summary.
       </p>
 
       <div className="gpt3__header-content__input">
@@ -25,7 +24,7 @@ const Header = () => (
       <div className="gpt3__header-content__people">
         <p>
           Save time and stay informed with TextXtract's AI-powered text
-          summarization technology
+          summarization technology.
         </p>
       </div>
     </div>

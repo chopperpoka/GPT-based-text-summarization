@@ -63,8 +63,11 @@
 .gpt3__footer-links_logo img {
   width: 210;
   height: 60px;
-
   margin-bottom: 1rem;
+  cursor: pointer;
+}
+.gpt3__footer-links_logo img:hover {
+  filter: brightness(110%);
 }
 
 .gpt3__footer-links_logo p {
@@ -93,7 +96,7 @@
   font-size: 12px;
   line-height: 15px;
   font-family: var(--font-family);
-  color: #fff;
+  color: #dfdddd;
 
   margin: 0.5rem 0;
   cursor: pointer;

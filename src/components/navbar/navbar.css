@@ -16,6 +16,11 @@
 .gpt3__navbar-logo img {
   width: 208.56px;
   height: 48.02px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.gpt3__navbar-logo img:hover {
+  filter: brightness(110%);
 }
 .gpt3__navbar-links_container {
   display: flex;
