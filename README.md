@@ -4,7 +4,7 @@ TextXtract is a web application that uses GPT-based text summarization to genera
 
 ## Screenshot
 
-![Alt text](/src/Textxtract.png)
+![Screenshot](/src/assets/Textxtract.png)
 
 ## Features
 
