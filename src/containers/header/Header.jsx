@@ -23,12 +23,9 @@ const Header = () => (
       </div>
 
       <div className="gpt3__header-content__people">
-        <img src={people} />
-        <p>1,600 people requested access a visit in last 24 hours</p>
+        <p>TextXtract is designed to be fast, accurate, and easy to use.</p>
       </div>
     </div>
-    {/* this should be solved - the quality of this image is not the best - Try
-    to improve that when you get the chance */}
     <div className="gpt3__header-image">
       <img src={ai} />
     </div>

@@ -24,7 +24,7 @@
 .gpt3__header-content p {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 28px;
   color: var(--color-text);
 
@@ -46,8 +46,8 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  background: var(--color-footer);
-  border: 2px solid var(--color-footer);
+  background: var(--input-bg);
+  border: 2px solid var(--input-bg);
   padding: 0 1rem;
   outline: none;
   color: #fff;
