@@ -5,15 +5,19 @@
   --font-family: "Manrope", sans-serif;
   --button-font: "Poppins", sans-serif;
 
-  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
-  --gradient-bar: radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgb(6, 20, 40) 25%
+  --gradient-text: linear-gradient(
+    132deg,
+    rgba(102, 73, 240, 1) 0%,
+    rgba(247, 152, 181, 1) 100%
   );
-  --gradient-btn-bg: #4e02b1;
+  --gradient-bar: linear-gradient(
+    343deg,
+    rgba(16, 9, 52, 1) 64%,
+    rgba(3, 1, 40, 1) 100%
+  );
+  --gradient-btn-bg: #150c46;
 
-  --color-bg: #040c18;
+  --color-bg: rgba(3, 1, 44, 1);
   --color-footer: #031b34;
   --color-blog: #042c54;
   --color-text: #81afdd;

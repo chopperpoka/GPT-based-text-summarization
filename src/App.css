@@ -16,36 +16,39 @@ a {
 
 .gradient__bg {
   /* ff 3.6+ */
-  background: -moz-radial-gradient(
-    circle at 10% 35%,
+  background: -moz-linear-gradient(
+    343deg,
     rgba(3, 1, 44, 1) 64%,
     rgba(25, 14, 79, 1) 100%
   );
 
   /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(
-    circle at 10% 35%,
+  background: -webkit-linear-gradient(
+    343deg,
     rgba(3, 1, 44, 1) 64%,
     rgba(25, 14, 79, 1) 100%
   );
 
   /* opera 11.10+ */
-  background: -o-radial-gradient(
-    circle at 10% 35%,
+  background: -o-linear-gradient(
+    343deg,
     rgba(3, 1, 44, 1) 64%,
     rgba(25, 14, 79, 1) 100%
   );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03012C', endColorstr='#190E4F', GradientType=1 );
 
   /* ie 10+ */
-  background: -ms-radial-gradient(
-    circle at 10% 35%,
+  background: -ms-linear-gradient(
+    343deg,
     rgba(3, 1, 44, 1) 64%,
     rgba(25, 14, 79, 1) 100%
   );
 
-  /* global 92%+ browsers support */
-  background: radial-gradient(
-    circle at 10% 35%,
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    343deg,
     rgba(3, 1, 44, 1) 64%,
     rgba(25, 14, 79, 1) 100%
   );

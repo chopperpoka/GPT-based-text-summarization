@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/TextXtract-logo.png";
+import logo from "../../assets/textxtract2.0.png";
 import "./footer.css";
 
 const Footer = () => (
