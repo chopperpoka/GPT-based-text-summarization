@@ -6,12 +6,13 @@
   --button-font: "Poppins", sans-serif;
 
   --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
-  --gradient-btn-bg: linear-gradient(
-    103.22deg,
-    #ae67fa -13.86%,
-    #f49867 99.55%
+  --gradient-bar: radial-gradient(
+    circle at 3% 25%,
+    rgba(0, 40, 83, 1) 0%,
+    rgb(6, 20, 40) 25%
   );
+  --gradient-btn-bg: #4e02b1;
+
   --color-bg: #040c18;
   --color-footer: #031b34;
   --color-blog: #042c54;
