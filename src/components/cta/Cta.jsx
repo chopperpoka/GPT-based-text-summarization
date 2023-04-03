@@ -2,7 +2,7 @@ import React from "react";
 import "./cta.css";
 
 const CTA = () => (
-  <div className="gpt3__cta">
+  <div className="gpt3__cta" id="cta">
     <div className="gpt3__cta-content">
       <p>Request Early Access to Get Started</p>
       <div className="gradient__text">

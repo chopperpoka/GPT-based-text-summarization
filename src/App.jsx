@@ -1,7 +1,8 @@
 import React from "react";
 import { Brand, Cta, Navbar } from "./components";
-import { Features, Footer, Header, Possibility, WhatGPT3 } from "./containers";
+import { Features, Footer, Header, Possibility, About } from "./containers";
 import "./App.css";
+import { Link } from "react-scroll";
 const App = () => {
   return (
     <div className="App">
@@ -10,7 +11,7 @@ const App = () => {
         <Header />
       </div>
       <Brand />
-      <WhatGPT3 />
+      <About />
       <Features />
       <Possibility />
       <Cta />

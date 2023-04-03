@@ -2,32 +2,90 @@ import { React, useState } from "react";
 import "./navbar.css";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/textxtract2.0.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const Menu = () => {
     return (
       <>
-        <p>
-          <a href="#home"></a>Home
-        </p>
-        <p>
-          <a href="#wgpt3"></a>About
-        </p>
-        <p>
-          <a href="#possibility"></a>Contact
-        </p>
-        <p>
-          <a href="#features"></a>FAQs
-        </p>
-        <p>
-          <a href="#blog"></a>Demo
-        </p>
+        <Link
+          activeClass="active"
+          to="navbar"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={400}
+        >
+          <p>
+            <a href="#home"></a>Home
+          </p>
+        </Link>
+        <Link
+          activeClass="active"
+          to="xtract-about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={100}
+        >
+          <p>
+            <a href="#wgpt3"></a>About
+          </p>
+        </Link>
+        <Link
+          activeClass="active"
+          to="xtract-about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          <p>
+            <a href="#possibility"></a>Contact
+          </p>
+        </Link>
+        <Link
+          activeClass="active"
+          to="features"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={100}
+        >
+          <p>
+            <a href="#features"></a>Features
+          </p>
+        </Link>
+        <Link
+          activeClass="active"
+          to="section1"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          <p>
+            <a href="#features"></a>FAQs
+          </p>
+        </Link>
+        <Link
+          activeClass="active"
+          to="cta"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={100}
+        >
+          <p>
+            <a href="#blog"></a>Demo
+          </p>
+        </Link>
       </>
     );
   };
   return (
-    <div className="gpt3__navbar">
+    <div className="gpt3__navbar" id="navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-logo">
           <img src={logo} alt="logo"></img>
