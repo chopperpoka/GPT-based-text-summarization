@@ -79,6 +79,7 @@
 }
 .gpt3__header-content__input button:hover {
   box-shadow: 0px 0px 10px 0px #140c46;
+  filter: brightness(110%);
 }
 
 .gpt3__header-content__people {
