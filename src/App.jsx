@@ -1,8 +1,8 @@
 import React from "react";
 import { Brand, Cta, Navbar } from "./components";
 import { Features, Footer, Header, Possibility, About } from "./containers";
+import { ScrollToTopButton } from "./features";
 import "./App.css";
-import { Link } from "react-scroll";
 const App = () => {
   return (
     <div className="App">
@@ -13,6 +13,7 @@ const App = () => {
       <Brand />
       <About />
       <Features />
+      <ScrollToTopButton />
       <Possibility />
       <Cta />
       <Footer />
