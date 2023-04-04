@@ -6,7 +6,7 @@ const Header = () => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
       <h1 className="gradient__text">
-        TextXtract <br></br> An AI-Powered Text Summarization
+        TextXtract <br /> An AI-Powered Text Summarization
       </h1>
       <p>
         Get concise and accurate summaries of long articles, research papers,

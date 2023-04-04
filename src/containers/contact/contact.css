@@ -1,21 +1,20 @@
-.gpt3__contact-text {
-  font-family: var(--font-family);
-}
-.heading {
-  color: linear-gradient(
-    132deg,
-    rgba(102, 73, 240, 1) 0%,
-    rgba(247, 152, 181, 1) 100%
-  ) !important;
+.contact-headline {
+  color: var(--color-subtext);
   font-family: var(--font-family);
   text-align: center;
 }
+
 .contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 180px;
 }
-.form-container {
-  text-align: center;
+label {
+  font-family: var(--font-family);
+  color: var(--color-subtext);
+  font-size: 18px;
+}
+.contactInput {
+  width: 400px;
+  height: 40px;
 }

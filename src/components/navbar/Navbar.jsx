@@ -35,7 +35,7 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          to="xtract-about"
+          to="contact"
           spy={true}
           smooth={true}
           offset={-70}
@@ -78,7 +78,7 @@ const Navbar = () => {
           duration={100}
         >
           <p>
-            <a href="#blog"></a>Demo
+            <a href="#demo"></a>Demo
           </p>
         </Link>
       </>
