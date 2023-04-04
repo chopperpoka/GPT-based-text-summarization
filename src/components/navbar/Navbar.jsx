@@ -59,14 +59,14 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          to="section1"
+          to="faq"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
         >
           <p>
-            <a href="#features"></a>FAQs
+            <a href="#faq"></a>FAQs
           </p>
         </Link>
         <Link

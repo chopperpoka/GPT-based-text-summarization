@@ -1,6 +1,13 @@
 import React from "react";
 import { Brand, Cta, Navbar } from "./components";
-import { Features, Footer, Header, Possibility, About } from "./containers";
+import {
+  Features,
+  Footer,
+  Header,
+  Possibility,
+  About,
+  FAQ,
+} from "./containers";
 import { ScrollToTopButton } from "./features";
 import "./App.css";
 const App = () => {
@@ -15,6 +22,7 @@ const App = () => {
       <Features />
       <ScrollToTopButton />
       <Possibility />
+      <FAQ />
       <Cta />
       <Footer />
     </div>

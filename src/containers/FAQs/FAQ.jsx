@@ -1,9 +1,10 @@
 import React from "react";
 import "./faq.css";
+import Question from "../../components/question/question";
 
 const FAQData = [
   {
-    question: "Save Time and What types of texts can I use with TextXtract?",
+    question: "What types of texts can I use with TextXtract?",
     answer:
       "TextXtract can be used with a wide variety of texts, including articles, research papers, reports, and more. As long as the text is in English and can be pasted into the input box, TextXtract should be able to generate a summary.",
   },
@@ -28,21 +29,19 @@ const FAQData = [
 const FAQ = () => (
   <div className="gpt3__features section__padding" id="faq">
     <div className="gpt3__features-heading">
-      <h1 className="gradient__text">
-        Experience the Power of TextXtract: 4 Benefits to Simplify Your Text
-        Summarization
-      </h1>
-      <p>Request Early Access to Get Started</p>
+      <h1 className="gradient__text">Frequently Asked Questions</h1>
+      <p>Find answers to commonly asked questions about TextXtract</p>
     </div>
     <div className="gpt3__features-container">
       {FAQData.map((item, index) => (
         <Question
-          title={item.question}
-          text={item.answer}
+          question={item.question}
+          answer={item.answer}
           key={item.question + index}
         />
       ))}
     </div>
   </div>
 );
+
 export default FAQ;

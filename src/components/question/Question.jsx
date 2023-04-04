@@ -1,15 +1,17 @@
-import "./question.css";
 import React from "react";
+import "./question.css";
 
-const Question = (question, answer) => {
-  <div className="gpt3__FAQ-container__faqs">
-    <div className="gpt3__FAQ-container__-question">
-      <div />
-      <h1>{question}</h1>
+const Question = ({ question, answer }) => {
+  return (
+    <div className="gpt3__features-container__feature">
+      <div className="gpt3__features-container__feature-title">
+        <h1>{question}</h1>
+      </div>
+      <div className="gpt3__features-container_feature-text">
+        <p>{answer}</p>
+      </div>
     </div>
-    <div className="gpt3__FAQ-container_feature-aanswer">
-      <p>{answer}</p>
-    </div>
-  </div>;
+  );
 };
+
 export default Question;
