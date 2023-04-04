@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./scrolltotopbutton.css";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -26,7 +27,7 @@ const ScrollToTopButton = () => {
       className={`scroll-to-top-button ${isVisible ? "visible" : ""}`}
       onClick={scrollToTop}
     >
-      <i className="fas fa-arrow-up"></i>
+      <i class="fa-solid fa-caret-up"></i>
     </div>
   );
 };
