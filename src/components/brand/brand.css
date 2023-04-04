@@ -15,3 +15,6 @@
   justify-content: center;
   align-items: center;
 }
+img:hover {
+  filter: brightness(120%);
+}

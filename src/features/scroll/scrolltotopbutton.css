@@ -14,6 +14,10 @@
   transition: opacity 0.3s ease-in-out;
   opacity: 0;
 }
+.scroll-to-top-button:hover {
+  filter: brightness(110%);
+  box-shadow: 0px 0px 10px 0px #140c46;
+}
 
 .scroll-to-top-button.visible {
   opacity: 1;
