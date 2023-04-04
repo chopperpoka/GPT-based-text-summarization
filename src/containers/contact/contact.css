@@ -10,3 +10,12 @@
   font-family: var(--font-family);
   text-align: center;
 }
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+}
+.form-container {
+  text-align: center;
+}
