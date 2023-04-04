@@ -7,6 +7,7 @@ import {
   Possibility,
   About,
   FAQ,
+  Contact,
 } from "./containers";
 import { ScrollToTopButton } from "./features";
 import "./App.css";
@@ -24,6 +25,7 @@ const App = () => {
       <Possibility />
       <FAQ />
       <Cta />
+      <Contact />
       <Footer />
     </div>
   );
