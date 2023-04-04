@@ -4,6 +4,8 @@ const Contact = () => {
   return (
     <div id="contact">
       <div className="gpt3__contact-text">
+        {/* fix the issue here on the gradient text with the contact header*/}
+        {/*TO DO */}
         <div className="gradient__text">
           <h1 className="contact-headline">Get In Touch:</h1>
         </div>
