@@ -24,8 +24,8 @@ const App = () => {
       <ScrollToTopButton />
       <Possibility />
       <FAQ />
-      <Cta />
       <Contact />
+      <Cta />
       <Footer />
     </div>
   );

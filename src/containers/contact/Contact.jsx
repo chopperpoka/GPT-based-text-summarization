@@ -4,16 +4,18 @@ const Contact = () => {
   return (
     <div id="contact">
       <div className="gpt3__contact-text">
-        <h1 className="contact-headline">Contact us</h1>
+        <div className="gradient__text">
+          <h1 className="contact-headline">Get In Touch:</h1>
+        </div>
 
         <form className="contact-form">
           <label>Full Name:</label>
-          <input className="contactInput" type="text"></input>
+          <input className="contactInput" name="fullname" type="text"></input>
           <label>Work Email</label>
-          <input className="contactInput" type="email"></input>
+          <input className="contactInput" name="email" type="email"></input>
           <label>Subject</label>
-          <input className="contactInput" type="text"></input>
-          <input className="submitInput" type="submit"></input>
+          <input className="contactInput" name="subject" type="text"></input>
+          <input className="submitInput" name="submit" type="submit"></input>
         </form>
       </div>
     </div>

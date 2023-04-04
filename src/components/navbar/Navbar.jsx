@@ -95,8 +95,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Login</p>
-        <button type="button">Create Account</button>
+        <p>Log in</p>
+        <button type="button">Request A demo</button>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu ? (
@@ -117,8 +117,8 @@ const Navbar = () => {
             <div className="gpt3__navbar-menu_container-links">
               <Menu />
               <div className="gpt3__navbar-menu_container-links-sign">
-                <p>Sign In</p>
-                <button type="button">Sign up</button>
+                <p>Log In</p>
+                <button type="button">Request A Demo</button>
               </div>
             </div>
           </div>
