@@ -35,18 +35,6 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          to="contact"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          <p>
-            <a href="#possibility"></a>Contact
-          </p>
-        </Link>
-        <Link
-          activeClass="active"
           to="features"
           spy={true}
           smooth={true}
@@ -67,6 +55,18 @@ const Navbar = () => {
         >
           <p>
             <a href="#faq"></a>FAQs
+          </p>
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          <p>
+            <a href="#possibility"></a>Contact
           </p>
         </Link>
         <Link

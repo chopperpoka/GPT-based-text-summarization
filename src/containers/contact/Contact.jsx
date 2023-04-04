@@ -14,7 +14,11 @@ const Contact = () => {
           <label>Work Email</label>
           <input className="contactInput" name="email" type="email"></input>
           <label>Subject</label>
-          <input className="contactInput" name="subject" type="text"></input>
+          <input
+            className="contact-subjectInput"
+            name="subject"
+            type="text"
+          ></input>
           <input className="submitInput" name="submit" type="submit"></input>
         </form>
       </div>
