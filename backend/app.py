@@ -12,7 +12,7 @@ def generate_summary(text):
     return summary
 
 
-input_text = "The quick brown fox jumps over the lazy dog. This sentence is about a brown fox and a lazy dog."
+input_text = "As the sun set over the small town, Sarah couldn't shake the feeling that something was wrong. She checked the locks on her doors and windows before settling in for the night. Suddenly, she heard a loud noise outside. She peeked through the blinds and saw a group of strangers approaching her house. She grabbed her phone and called the police, praying they would arrive in time."
 summary = generate_summary(input_text)
 print(summary)
 
