@@ -11,6 +11,7 @@ def generate_summary(text):
     summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
     return summary
 
+
 input_text = "The quick brown fox jumps over the lazy dog. This sentence is about a brown fox and a lazy dog."
 summary = generate_summary(input_text)
 print(summary)
