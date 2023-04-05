@@ -1,6 +1,11 @@
 import React from "react";
-import { Navbar } from "./components";
+import { Navbar, Explainer } from "/src/components";
 const Demo = () => {
-  return <Navbar />;
+  return (
+    <>
+      <Navbar />
+      <Explainer />
+    </>
+  );
 };
 export default Demo;

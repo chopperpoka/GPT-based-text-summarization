@@ -1,5 +1,6 @@
 import React from "react";
 import "./cta.css";
+import { Link } from "react-router-dom";
 
 const CTA = () => (
   <div className="gpt3__cta" id="cta">
