@@ -1,10 +1,18 @@
-.contact-headline {
+.contact__headline h1 {
+  font-size: 38px;
+  line-height: 45px;
+  font-weight: 800;
   font-family: var(--font-family);
-  text-align: center;
-  padding-bottom: 20px;
-  font-size: 40px;
 }
-
+.contact__headline {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
 .contact-form {
   display: flex;
   width: 100%;
@@ -22,7 +30,7 @@ label {
   margin-bottom: 17px;
 }
 .contactInput {
-  width: 800px;
+  width: 700px;
   height: 50px;
   font-size: 20px;
   border: none;
@@ -34,7 +42,7 @@ label {
   filter: brightness(110%);
 }
 .contact-subjectInput {
-  width: 800px;
+  width: 700px;
   height: 120px;
   font-size: 20px;
   border: none;
@@ -52,7 +60,7 @@ label {
   border: none;
   font-size: 17px;
   padding: 10px 90px;
-  font-weight: 800;
+  font-weight: 700;
   margin-top: 20px;
   border-radius: 15px;
   cursor: pointer;
