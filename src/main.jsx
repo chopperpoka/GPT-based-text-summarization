@@ -2,9 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import "./index.css";
-ReactDOM.render(
-  <Router>
-    <App />
-  </Router>,
-  document.getElementById("root")
-);
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <div>Hello world!</div>,
+  },
+]);
+ReactDOM.render(<App />, document.getElementById("root"));
