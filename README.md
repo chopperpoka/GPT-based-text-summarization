@@ -1,4 +1,4 @@
-# TextXtract - Currently working on the app UI.
+# TextXtract.
 
 TextXtract is a web application that uses GPT-based text summarization to generate summaries of long pieces of text. Users can input an article, research paper, or other text, and the application will generate a summary that can be displayed alongside the original text.
 
@@ -18,6 +18,8 @@ TextXtract is a web application that uses GPT-based text summarization to genera
 - Plain CSS for styling
 - Vite for development server and bundler
 - Hugging Face's Transformers for accessing pre-trained GPT models
+- Axios for making API requests to the Flask server
+- Flask for the server-side logic and text summarization
 
 ## Installation and Usage
 
