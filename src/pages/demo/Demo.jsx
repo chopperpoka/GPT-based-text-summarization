@@ -1,5 +1,6 @@
 import React from "react";
-import { Navbar, Explainer } from "/src/components";
+import { Routes, Route } from "react-router-dom";
+
 const Demo = () => {
   return (
     <div>
@@ -7,4 +8,5 @@ const Demo = () => {
     </div>
   );
 };
+
 export default Demo;

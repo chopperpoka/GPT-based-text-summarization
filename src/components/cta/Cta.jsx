@@ -11,9 +11,9 @@ const CTA = () => (
       </div>
     </div>
     <div className="gpt3__cta-btn">
-      <a href="/src/pages/demo">
+      <Link to="/demo">
         <button type="button">Get Started</button>
-      </a>
+      </Link>
     </div>
   </div>
 );
