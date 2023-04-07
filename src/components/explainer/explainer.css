@@ -13,7 +13,7 @@
   color: rgb(172, 172, 172);
   font-family: var(--font-family);
   padding: 15px;
-  font-size: 17px;
+  font-size: 15px;
 }
 .demo__grid {
   padding-top: 20px;
@@ -27,7 +27,36 @@
 .demo__grid-column-2 {
   display: flex;
   flex-direction: column;
+  padding: 30px;
 }
-input[type="text"] {
-  width: 500px;
+.demo__text {
+  width: 700px;
+  padding-bottom: 300px;
+  background-color: var(--input-bg);
+  border: none;
+}
+.demo__text:hover {
+  filter: brightness(110%);
+}
+.demo__text::placeholder {
+  color: rgb(184, 184, 184);
+  font-size: 15px;
+}
+.demo__text::-ms-value {
+  font-size: 202px;
+}
+.demo__submit {
+  width: 200px;
+  background-color: var(--gradient-btn-bg);
+  border: none;
+  color: white;
+  border-radius: 13px;
+  margin-top: 16px;
+  height: 40px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  cursor: pointer;
+}
+.demo__submit:hover {
+  filter: brightness(110%);
 }

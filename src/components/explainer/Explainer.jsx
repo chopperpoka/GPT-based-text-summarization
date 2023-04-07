@@ -27,8 +27,16 @@ const Explainer = () => {
           </p>
         </div>
         <div className="demo__grid-column-2">
-          <input type="text" required minLength={200} />
-          <button type="submit">Get Summary</button>
+          <input
+            className="demo__text"
+            type="text"
+            required
+            minLength={200}
+            placeholder="input the text you want to summarize here"
+          />
+          <button className="demo__submit" type="submit">
+            Get Summary
+          </button>
         </div>
       </div>
     </div>
