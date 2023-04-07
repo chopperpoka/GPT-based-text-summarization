@@ -1,0 +1,33 @@
+.demo__headline {
+  color: linear-gradient(
+    132deg,
+    rgba(102, 73, 240, 1) 0%,
+    rgba(247, 152, 181, 1) 100%
+  );
+  font-family: var(--font-family);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 900;
+}
+.demo__description {
+  color: rgb(172, 172, 172);
+  font-family: var(--font-family);
+  padding: 15px;
+  font-size: 17px;
+}
+.demo__grid {
+  padding-top: 20px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.demo__grid-column-1 {
+  padding: 40px;
+}
+.demo__grid-column-2 {
+  display: flex;
+  flex-direction: column;
+}
+input[type="text"] {
+  width: 500px;
+}

@@ -2,26 +2,20 @@ import { React, useState } from "react";
 import "./navbar.css";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/textxtract2.0.png";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const Menu = () => {
     return (
       <>
-        <Link
-          activeClass="active"
-          to="navbar"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={400}
-        >
+        <RouterLink to="/">
           <p>
-            <a href="#home"></a>Home
+            <a></a>Home
           </p>
-        </Link>
-        <Link
+        </RouterLink>
+        <ScrollLink
           activeClass="active"
           to="xtract-about"
           spy={true}
@@ -32,8 +26,8 @@ const Navbar = () => {
           <p>
             <a href="#wgpt3"></a>About
           </p>
-        </Link>
-        <Link
+        </ScrollLink>
+        <ScrollLink
           activeClass="active"
           to="features"
           spy={true}
@@ -44,8 +38,8 @@ const Navbar = () => {
           <p>
             <a href="#features"></a>Features
           </p>
-        </Link>
-        <Link
+        </ScrollLink>
+        <ScrollLink
           activeClass="active"
           to="faq"
           spy={true}
@@ -56,8 +50,8 @@ const Navbar = () => {
           <p>
             <a href="#faq"></a>FAQs
           </p>
-        </Link>
-        <Link
+        </ScrollLink>
+        <ScrollLink
           activeClass="active"
           to="contact"
           spy={true}
@@ -68,8 +62,8 @@ const Navbar = () => {
           <p>
             <a href="#possibility"></a>Contact
           </p>
-        </Link>
-        <Link
+        </ScrollLink>
+        <ScrollLink
           activeClass="active"
           to="cta"
           spy={true}
@@ -80,7 +74,7 @@ const Navbar = () => {
           <p>
             <a href="#demo"></a>Demo
           </p>
-        </Link>
+        </ScrollLink>
       </>
     );
   };
@@ -88,7 +82,9 @@ const Navbar = () => {
     <div className="gpt3__navbar" id="navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-logo">
-          <img src={logo} alt="logo"></img>
+          <RouterLink to="/">
+            <img src={logo} alt="logo"></img>
+          </RouterLink>
         </div>
         <div className="gpt3__navbar-links_container">
           <Menu />

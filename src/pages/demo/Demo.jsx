@@ -1,10 +1,13 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Navbar, Explainer } from "../../components";
 
 const Demo = () => {
   return (
     <div>
-      <h1>Testing</h1>
+      <div className="gradient__bg">
+        <Navbar />
+        <Explainer />
+      </div>
     </div>
   );
 };
