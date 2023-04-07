@@ -92,7 +92,16 @@ const Navbar = () => {
       </div>
       <div className="gpt3__navbar-sign">
         <p>Log in</p>
-        <button type="button">Request A demo</button>
+        <ScrollLink
+          activeClass="active"
+          to="cta"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={100}
+        >
+          <button type="button">Request A demo</button>
+        </ScrollLink>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu ? (
