@@ -12,7 +12,7 @@ const Explainer = () => {
 
   const handleSummarizeClick = () => {
     axios
-      .post("http://localhost:5173/api/summary", { text: inputText })
+      .post("http://localhost:5000/api/summary", { text: inputText })
       .then((response) => {
         setSummary(response.data.summary);
       })
@@ -34,15 +34,16 @@ const Explainer = () => {
           <p className="demo__description">
             TextXtract is a powerful web application that uses advanced AI
             algorithms to generate summaries of long articles, research papers,
-            and other texts.
-            <br />
-            With TextXtract, you can input any text and receive a concise
-            summary that captures the most important information in just a few
-            sentences. Whether you're a student, researcher, or just a busy
-            professional, TextXtract is the perfect tool to save time and stay
-            on top of your reading.
-            <br /> Try it today and experience the power of GPT-based text
-            summarization!
+            and other texts. With TextXtract, you can input any text and receive
+            a concise summary that captures the most important information in
+            just a few sentences. Whether you're a student, researcher, or just
+            a busy professional, TextXtract is the perfect tool to save time and
+            stay on top of your reading.<br></br>
+            <br />{" "}
+            <strong>
+              Try it today and experience the power of GPT-based text
+              summarization!{" "}
+            </strong>
           </p>
         </div>
         <div className="demo__grid-column-2">
@@ -54,9 +55,11 @@ const Explainer = () => {
             value={inputText}
             onChange={handleInputChange}
           ></textarea>
-          <button className="demo__submit" onClick={handleSummarizeClick}>
-            Get Summary
-          </button>
+          <div className="button_container">
+            <button className="demo__submit" onClick={handleSummarizeClick}>
+              Get Summary
+            </button>
+          </div>
           {summary && (
             <div className="demo__summary">
               <h2>Summary</h2>

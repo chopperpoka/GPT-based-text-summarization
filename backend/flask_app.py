@@ -22,10 +22,12 @@ def generate_summary_api():
     if request.method != 'POST':
         return jsonify({'error': 'Method Not Allowed'}), 405
     data = request.get_json()
+    print(data)  # prints the data
     input_text = data['text']
     summary = generate_summary(input_text)
+    # maybe remove the jsonify, idk man just try something I'm done at this point
     return jsonify({'summary': summary})
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5173)
+    app.run(debug=True, port=5000)
