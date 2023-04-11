@@ -21,13 +21,6 @@ TextXtract is a web application that uses GPT-based text summarization to genera
 - Axios for making API requests to the Flask server
 - Flask for the server-side logic and text summarization
 
-## Installation and Usage
-
-1. Clone the repository to your local machine
-2. Run `npm install` to install the necessary dependencies
-3. Run `npm start` to start the development server
-4. Navigate to `http://localhost:3000` in your browser to view the application
-
 ## Contributing
 
 Contributions to TextXtract are welcome! To contribute, please submit a pull request with your proposed changes. For major changes, please open an issue first to discuss the proposed changes.
