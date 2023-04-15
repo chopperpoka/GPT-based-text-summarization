@@ -1,7 +1,10 @@
 from flask import Flask, jsonify, request
 from transformers import T5Tokenizer, T5ForConditionalGeneration
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
+
 model = T5ForConditionalGeneration.from_pretrained('t5-small')
 tokenizer = T5Tokenizer.from_pretrained('t5-small', model_max_length=1024)
 
@@ -22,12 +25,10 @@ def generate_summary_api():
     if request.method != 'POST':
         return jsonify({'error': 'Method Not Allowed'}), 405
     data = request.get_json()
-    print(data)  # prints the data
     input_text = data['text']
     summary = generate_summary(input_text)
-    # maybe remove the jsonify, idk man just try something I'm done at this point
     return jsonify({'summary': summary})
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(debug=True, port=5050)

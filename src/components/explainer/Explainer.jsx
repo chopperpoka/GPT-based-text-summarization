@@ -5,19 +5,23 @@ import "./explainer.css";
 const Explainer = () => {
   const [inputText, setInputText] = useState("");
   const [summary, setSummary] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleInputChange = (event) => {
     setInputText(event.target.value);
   };
 
   const handleSummarizeClick = () => {
+    setLoading(true);
     axios
-      .post("http://localhost:5000/api/summary", { text: inputText })
+      .post("http://localhost:5050/api/summary", { text: inputText })
       .then((response) => {
         setSummary(response.data.summary);
+        setLoading(false);
       })
       .catch((error) => {
         console.log(error);
+        setLoading(false);
       });
   };
 
@@ -56,8 +60,12 @@ const Explainer = () => {
             onChange={handleInputChange}
           ></textarea>
           <div className="button_container">
-            <button className="demo__submit" onClick={handleSummarizeClick}>
-              Get Summary
+            <button
+              className="demo__submit"
+              onClick={handleSummarizeClick}
+              disabled={loading}
+            >
+              {loading ? "Loading..." : "Get Summary"}
             </button>
           </div>
           {summary && (
