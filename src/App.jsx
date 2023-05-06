@@ -10,7 +10,6 @@ import {
   Contact,
 } from "./containers";
 import { ScrollToTopButton } from "./features";
-import { Demo } from "./pages";
 import "./App.css";
 
 const App = () => {
