@@ -1,5 +1,5 @@
 import React from "react";
-import { Brand, Cta, Navbar } from "./components";
+import { Brand, CTA, Navbar } from "./components";
 import {
   Features,
   Footer,
@@ -27,7 +27,7 @@ const App = () => {
       <Possibility />
       <FAQ />
       <Contact />
-      {/* <Cta /> */}
+      <CTA />
       <Footer />
     </div>
   );
