@@ -43,7 +43,7 @@ const Contact = () => {
           onChange={handleFormChange}
           required
         />
-        <label>Work Email</label>
+        <label>Work Email:</label>
         <input
           className="contactInput"
           name="email"
@@ -52,7 +52,7 @@ const Contact = () => {
           onChange={handleFormChange}
           required
         />
-        <label>Subject</label>
+        <label>Subject:</label>
         <input
           className="contact-subjectInput"
           name="subject"
@@ -61,6 +61,10 @@ const Contact = () => {
           onChange={handleFormChange}
         />
         <input className="submitInput" name="submit" type="submit" required />
+        <p className="disclaimer__contact">
+          *We will do our best to get back to you. Keep in mind usual response
+          times are between 24-48 hours.
+        </p>
       </form>
     </div>
   );

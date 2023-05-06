@@ -91,7 +91,16 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Log in</p>
+        <ScrollLink
+          activeClass="active"
+          to="cta"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={100}
+        >
+          <p>Log in</p>
+        </ScrollLink>
         <ScrollLink
           activeClass="active"
           to="cta"

@@ -6,7 +6,6 @@ const Explainer = () => {
   const [inputText, setInputText] = useState("");
   const [summary, setSummary] = useState("");
   const [loading, setLoading] = useState(false);
-
   const handleInputChange = (event) => {
     setInputText(event.target.value);
   };
@@ -74,7 +73,7 @@ const Explainer = () => {
       {summary && (
         <div className="demo__summary">
           <div className="gradient__text">
-            <h2 className="summary_headline">Summary:</h2>
+            <h2 className="summary_headline">Summarized Version:</h2>
           </div>
           <p>{summary}</p>
         </div>

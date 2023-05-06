@@ -27,7 +27,7 @@ const ScrollToTopButton = () => {
       className={`scroll-to-top-button ${isVisible ? "visible" : ""}`}
       onClick={scrollToTop}
     >
-      <i class="fa-solid fa-caret-up"></i>
+      <i className="fa-solid fa-caret-up"></i>
     </div>
   );
 };
