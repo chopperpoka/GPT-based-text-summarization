@@ -27,7 +27,7 @@ const App = () => {
       <Possibility />
       <FAQ />
       <Contact />
-      <Cta />
+      <CTA />
       <Footer />
     </div>
   );
