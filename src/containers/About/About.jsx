@@ -1,6 +1,6 @@
 import React from "react";
 import Feature from "../../components/feature/Feature";
-import "./whatgpt3.css";
+import "./about.css";
 
 const About = () => (
   <div className="gpt3__whatgpt3 section__margin" id="xtract-about">
