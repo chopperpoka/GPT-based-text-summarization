@@ -26,7 +26,7 @@ const FAQData = [
   },
 ];
 
-const FAQ = () => (
+const Faq = () => (
   <div className="gpt3__features section__padding" id="faq">
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">Frequently Asked Questions</h1>
@@ -44,4 +44,4 @@ const FAQ = () => (
   </div>
 );
 
-export default FAQ;
+export default Faq;

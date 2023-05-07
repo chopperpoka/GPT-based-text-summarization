@@ -1,12 +1,12 @@
 import React from "react";
-import { Brand, CTA, Navbar } from "./components";
+import { Brand, Cta, Navbar } from "./components";
 import {
   Features,
   Footer,
   Header,
   Possibility,
   About,
-  FAQ,
+  Faq,
   Contact,
 } from "./containers";
 import { ScrollToTopButton } from "./features";
@@ -24,9 +24,9 @@ const App = () => {
       <Features />
       <ScrollToTopButton />
       <Possibility />
-      <FAQ />
+      <Faq />
       <Contact />
-      <CTA />
+      <Cta />
       <Footer />
     </div>
   );

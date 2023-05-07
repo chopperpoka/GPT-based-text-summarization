@@ -2,7 +2,7 @@ import React from "react";
 import "./cta.css";
 import { Link } from "react-router-dom";
 
-const CTA = () => (
+const Cta = () => (
   <div className="gpt3__cta" id="cta">
     <div className="gpt3__cta-content">
       <p>Request Early Access to Get Started</p>
@@ -18,4 +18,4 @@ const CTA = () => (
   </div>
 );
 
-export default CTA;
+export default Cta;
