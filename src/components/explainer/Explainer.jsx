@@ -25,7 +25,7 @@ const Explainer = () => {
   };
 
   return (
-    <div class="demo__page-layout">
+    <div className="demo__page-layout">
       <div className="demo__grid">
         <div className="demo__grid-column-1">
           <div className="demo__headline">
