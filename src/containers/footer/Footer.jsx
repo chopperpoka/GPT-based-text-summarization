@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="gpt3__footer section__padding">
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links_logo">
-          <img src={logo} alt="gpt3_logo" />
+          <h1 className="gpt3__navbar-logo">TextXtract</h1>
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Useful Links</h4>

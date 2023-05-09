@@ -83,7 +83,7 @@ const Navbar = () => {
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-logo">
           <RouterLink to="/">
-            <img src={logo} alt="logo"></img>
+            <h1 className="gpt3__navbar-logo-text">TextXtract</h1>
           </RouterLink>
         </div>
         <div className="gpt3__navbar-links_container">
@@ -99,17 +99,7 @@ const Navbar = () => {
           offset={-70}
           duration={100}
         >
-          <p>Log in</p>
-        </ScrollLink>
-        <ScrollLink
-          activeClass="active"
-          to="cta"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={100}
-        >
-          <button type="button">Request A demo</button>
+          <button type="button">Try Our Demo</button>
         </ScrollLink>
       </div>
       <div className="gpt3__navbar-menu">
