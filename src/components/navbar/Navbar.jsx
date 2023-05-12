@@ -63,18 +63,6 @@ const Navbar = () => {
             <a href="#possibility"></a>Contact
           </p>
         </ScrollLink>
-        <ScrollLink
-          activeClass="active"
-          to="cta"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={100}
-        >
-          <p>
-            <a href="#demo"></a>Demo
-          </p>
-        </ScrollLink>
       </>
     );
   };
