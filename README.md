@@ -9,6 +9,7 @@ Customization and Fine-tuning: The codebase enables users to fine-tune GPT model
 Evaluation and Performance Metrics: The project incorporates evaluation metrics to assess the quality and effectiveness of the generated summaries. Metrics such as ROUGE (Recall-Oriented Understudy for Gisting Evaluation) can be employed to evaluate the summaries against reference summaries, providing insights into the performance and quality of the summarization model.
 
 ## Technologies Used
+
 **Transformers Library**: The project utilizes the Hugging Face Transformers library, which provides a wide range of pre-trained models, including GPT models, for natural language processing tasks. The library offers an easy-to-use interface for fine-tuning models and generating summaries based on the GPT architecture.
 
 **Flask**: Flask is a lightweight web framework for Python that allows for the development of web applications. In TextXtract, Flask is used to create the backend server that handles requests, processes text summarization, and provides APIs for frontend communication.
@@ -18,6 +19,7 @@ Evaluation and Performance Metrics: The project incorporates evaluation metrics 
 **Axios**: Axios is a JavaScript library used for making HTTP requests from the frontend to the backend server. It facilitates communication between the React frontend and the Flask backend in TextXtract.
 
 ## Getting Started
+
 To get started with TextXtract, follow these steps:
 
 Clone the repository:
@@ -51,6 +53,7 @@ This will start the Flask server and make it accessible at http://localhost:5000
 Start the frontend development server:
 
 ``` cd ../frontend ```
+
 ``` npm start ```
 
 This will start the React development server and open the TextXtract application in your default web browser at http://localhost:3000.
