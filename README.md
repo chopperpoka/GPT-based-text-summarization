@@ -8,6 +8,11 @@ Customization and Fine-tuning: The codebase enables users to fine-tune GPT model
 
 Evaluation and Performance Metrics: The project incorporates evaluation metrics to assess the quality and effectiveness of the generated summaries. Metrics such as ROUGE (Recall-Oriented Understudy for Gisting Evaluation) can be employed to evaluate the summaries against reference summaries, providing insights into the performance and quality of the summarization model.
 
+## Screenshots
+
+![Screenshot](/public/TextXtract-Screenshot.png)
+
+
 ## Technologies Used
 
 **Transformers Library**: The project utilizes the Hugging Face Transformers library, which provides a wide range of pre-trained models, including GPT models, for natural language processing tasks. The library offers an easy-to-use interface for fine-tuning models and generating summaries based on the GPT architecture.
