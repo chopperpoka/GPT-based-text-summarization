@@ -18,7 +18,8 @@ Evaluation and Performance Metrics: The project incorporates evaluation metrics 
 
 **Axios**: Axios is a JavaScript library used for making HTTP requests from the frontend to the backend server. It facilitates communication between the React frontend and the Flask backend in TextXtract.
 
-## Getting Started
+## Getting Started
+
 
 To get started with TextXtract, follow these steps:
 
