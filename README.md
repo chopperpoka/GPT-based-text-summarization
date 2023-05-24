@@ -29,17 +29,20 @@ Install backend dependencies:
 
 
 ``` cd TextXtract/backend ```
+
 ``` pip install -r requirements.txt ```
 
 Install frontend dependencies:
 
 
 ``` cd ..  ```
+
 ``` npm install ```
 
 Start the backend server:
 
 ``` cd ../backend ```
+
 ``` python3 app.py ```
 
 
@@ -60,7 +63,7 @@ You can now use the TextXtract application in your web browser to input text, ge
 
 Contributions to TextXtract are welcome! If you'd like to contribute, please follow the guidelines outlined in the repository. This may include bug fixes, feature enhancements, or documentation improvements.
 
-## License
+## License
 
 The TextXtract project is licensed under the Apache 2.0 License. You are free to modify and distribute the codebase as per the terms of the license.
 
