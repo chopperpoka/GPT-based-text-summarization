@@ -22,48 +22,50 @@ To get started with TextXtract, follow these steps:
 
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/01010110-Code/TextXtract.git
+
+``` git clone https://github.com/01010110-Code/TextXtract.git ```
+
 Install backend dependencies:
 
-bash
-Copy code
-cd TextXtract/backend
-pip install -r requirements.txt
+
+``` cd TextXtract/backend ```
+``` pip install -r requirements.txt ```
+
 Install frontend dependencies:
 
-bash
-Copy code
-cd ../frontend
-npm install
+
+``` cd ..  ```
+``` npm install ```
+
 Start the backend server:
 
-bash
-Copy code
-cd ../backend
-python app.py
+``` cd ../backend ```
+``` python3 app.py ```
+
+
 This will start the Flask server and make it accessible at http://localhost:5000.
 
 Start the frontend development server:
 
-bash
-Copy code
-cd ../frontend
-npm start
+``` cd ../frontend ```
+``` npm start ```
+
 This will start the React development server and open the TextXtract application in your default web browser at http://localhost:3000.
 
 Use the TextXtract application:
 
 You can now use the TextXtract application in your web browser to input text, generate summaries, and interact with the generated results.
 
-## Contributing
+## Contributing
+
 Contributions to TextXtract are welcome! If you'd like to contribute, please follow the guidelines outlined in the repository. This may include bug fixes, feature enhancements, or documentation improvements.
 
 ## License
+
 The TextXtract project is licensed under the Apache 2.0 License. You are free to modify and distribute the codebase as per the terms of the license.
 
 ## Contact
+
 If you have any questions or suggestions related to TextXtract, please feel free to reach out by creating an issue in
 
 
